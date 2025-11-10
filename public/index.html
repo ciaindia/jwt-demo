@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JWT Demo</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <h2>JWT Login Demo (Hardcoded User)</h2>
+
+  <div>
+    <input id="username" placeholder="Username" value="admin" />
+    <input id="password" type="password" placeholder="Password" value="admin@123" />
+    <button onclick="login()">Login</button>
+    <button onclick="getSecure()">Access Secure Route</button>
+  </div>
+
+  <pre id="output"></pre>
+
+  <script src="main.js"></script>
+</body>
+</html>
